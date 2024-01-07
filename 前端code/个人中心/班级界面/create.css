@@ -1,0 +1,170 @@
+*{
+    user-select: none;
+}
+
+
+body {
+    background: linear-gradient(180.00deg, rgba(255, 255, 255, 0.22), rgba(0, 225, 199, 0.358), rgb(255, 255, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* 使背景图片固定 */
+    margin: 0;
+    /* 去掉默认的页面外边距 */
+    padding: 0;
+    /* 去掉默认的页面内边距 */
+}
+
+.ball1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 90%;
+    background: rgba(36, 190, 248, 0.5);
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    transform: translate(-100%, 10%);
+}
+
+.ball2 {
+    width: 600px;
+    height: 600px;
+    border-radius: 90%;
+    background: rgba(233, 112, 25, 0.5);
+    position: absolute;
+    right: 10x;
+    top: 300px;
+    transform: translate(200%, 50%);
+}
+
+.box1{
+    width: 1300px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box2{
+    width: 500px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 22px;
+    position: absolute;
+    top:90%;
+    left: 11%;
+}
+
+.button1 {
+    border-radius: 12px;
+    background-color: rgb(80, 81, 249);
+    color: white;
+    margin: 15px 0;
+    position: absolute;
+    /*绝对定位，能够进行覆盖*/
+    left: 50px;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+}
+
+
+.button2{
+    border-radius: 12px;
+    background-color: rgb(210, 211, 248);
+    color: white;
+    margin: 15px 0;
+    position: absolute;
+    /*绝对定位，能够进行覆盖*/
+    left: 200px;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+}
+
+.form input {
+    border-color: rgb(204, 201, 201);
+    border-radius: 12px;
+    margin: 16px 0;
+    width: 300px;
+    height: 40px;
+}
+
+.form button{
+    border-radius: 12px;
+    background-color: rgb(22, 45, 58);
+    color: white;
+    margin: 20px 330px;
+    position: absolute;
+    /*绝对定位，能够进行覆盖*/
+    left: 50px;
+    width: 100px;
+    height: 40px;
+    font-size: medium;
+}
+
+
+
+table{
+    width: 80%;
+    margin:auto; 
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+}
+
+table caption{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+}
+
+th,td{
+    border: 1px solid #999;
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: none; /* 移除底部边框，使竖线在水平方向上不显示 */
+    border-left: none;
+    border-right: none;
+    border: none;
+
+}
+
+tr{
+    border-bottom: none; /* 移除底部边框，使竖线在水平方向上不显示 */
+    border-left: none;
+}
+
+table thead tr{
+    background-color: #008c8c;
+    color: #fff;
+    border-left: none;
+    border-right: none;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #eee;
+}
+
+table tbody tr:hover{
+    background-color: #ccc;
+}
+
+table tbody tr td:first-child{
+    color: rgb(140, 0, 255);
+}
+
+table tbody {
+    counter-reset: rowNumber;
+}
+
+table tbody tr::before {
+    content: counter(rowNumber);
+    counter-increment: rowNumber;
+    display: table-cell; /* 将 ::before 设置为表格单元格 */
+    text-align: center; /* 居中文本 */
+}
+

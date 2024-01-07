@@ -1,0 +1,183 @@
+*{
+    user-select: none;
+}
+
+body {
+    background-image: url('./Picture/Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* 使背景图片固定 */
+    margin: 0;
+    /* 去掉默认的页面外边距 */
+    padding: 0;
+    /* 去掉默认的页面内边距 */
+}
+
+.title {
+    width: 370px;
+    height: 164px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 22px;
+    position: absolute;
+    top: 8%;
+    left: 39%;
+}
+
+.p1{
+    font-size:x-large;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.p2{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.p3{
+    color: antiquewhite;
+    font-size: 1000px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+}
+
+.file1{
+    width: 1200px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 22px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.WBox1{
+    width: 100px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background: rgb(22, 45, 58);
+    border-radius: 22px;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.WBox2{
+    width: 100px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background: rgb(22, 45, 58);
+    border-radius: 22px;
+    position: absolute;
+    top: 3%;
+    left: 12.5%;
+}
+
+.WBox3{
+    width: 100px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background: rgb(22, 45, 58);
+    border-radius: 22px;
+    position: absolute;
+    top: 3%;
+    left: 22%;
+}
+
+.WBox4{
+    width: 100px;
+    height: 50px;
+    font-size:large;
+    text-align: center;
+    background: rgb(22, 45, 58);
+    border-radius: 22px;
+    position: absolute;
+    top: 3%;
+    left: 31.5%;
+}
+
+.InputBox{
+    width: 450px;
+    height: 60px;
+    position: absolute;
+    top: 11%;
+    left: 3%;
+}
+
+.InputBox input{
+    border-color: rgb(204, 201, 201);
+    border-radius: 12px;
+    margin: 16px 0;
+    width: 100px;
+    height: 50px;
+}
+
+.OutPut{
+    height: 400px;
+    width: 1130px;
+    background-color: rgb(55, 68, 75);
+    border-radius: 12px;
+    position: absolute;
+    top: 25%;
+    left: 3%;
+}
+
+.file-upload1 {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.file-upload1 input {
+    position: absolute;
+    font-size: 800px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.file-upload-label1 {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(22, 45, 58);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 22px;
+}
+
+.img1{
+    position: absolute;
+    top: 69%;
+    left: 40%;
+}
+
+.img2{
+    position: absolute;
+    top: 3%;
+    right: 12%;
+}
+
+.OutButton{
+    position: absolute;
+    top: 10%;
+    right: 4%;
+}
+
+.OutButton button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(22, 45, 58);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 22px;
+}

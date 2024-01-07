@@ -1,0 +1,110 @@
+* {
+    user-select: none;
+}
+
+body {
+    background: linear-gradient(180.00deg, rgba(255, 255, 255, 0.22), rgba(0, 225, 199, 0.358), rgb(255, 255, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* 使背景图片固定 */
+    margin: 0;
+    /* 去掉默认的页面外边距 */
+    padding: 0;
+    /* 去掉默认的页面内边距 */
+}
+
+.insert {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 22px;
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome {
+    color: rgb(64, 28, 210);
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 50%);
+}
+
+
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form {
+    width: 240px;
+    height: 220px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, 60%);
+}
+
+.login-form input {
+    border-color: rgb(204, 201, 201);
+    border-radius: 12px;
+    margin: 16px 0;
+    width: 400px;
+    height: 40px;
+}
+
+.login-form button {
+    border-radius: 12px;
+    background-color: rgb(22, 45, 58);
+    color: white;
+    margin: 15px 0;
+    position: absolute;
+    /*绝对定位，能够进行覆盖*/
+    left: 50px;
+    width: 300px;
+    height: 40px;
+    font-size: medium;
+}
+
+.input_1 {
+    position: absolute;
+    /*绝对定位，能够进行覆盖*/
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.ball1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 90%;
+    background: rgba(36, 190, 248, 0.75);
+    position: absolute;
+    /*绝对定位，能够进行覆盖*/
+    left: -250px;
+    top: 70px;
+    transform: translate(-70%, -100%);
+}
+
+.ball2 {
+    width: 600px;
+    height: 600px;
+    border-radius: 90%;
+    background: rgba(233, 112, 25, 0.732);
+    position: absolute;
+    /*绝对定位，能够进行覆盖*/
+    right: -10x;
+    top: 90px;
+    transform: translate(150%, 50%);
+}

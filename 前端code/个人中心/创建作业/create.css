@@ -1,0 +1,128 @@
+* {
+    user-select: none;
+}
+
+body {
+    background: linear-gradient(180.00deg, rgba(255, 255, 255, 0.22), rgba(0, 225, 199, 0.358), rgb(255, 255, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* 使背景图片固定 */
+    margin: 0;
+    /* 去掉默认的页面外边距 */
+    padding: 0;
+    /* 去掉默认的页面内边距 */
+}
+
+.insert {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 22px;
+    height: 800px;
+    width: 700px;
+    position: absolute;
+    top: 350px;
+    left: 4px;
+    transform: translate(30%, -20%);
+}
+
+.welcome {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    right: 40%;
+    text-align: center;
+}
+
+.input_1{
+    position: absolute;
+    margin-top: -6%;
+    margin-left: 30%;
+}
+
+.login-form {
+    width: 240px;
+    height: 220px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, 60%);
+}
+
+.login-form input {
+    border-color: rgb(204, 201, 201);
+    border-radius: 12px;
+    margin: 16px 0;
+    width: 400px;
+    height: 40px;
+}
+
+.login-form1{
+    width: 240px;
+    height: 220px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-30%, 100%);
+}
+
+.login-form1 input {
+    border-color: rgb(204, 201, 201);
+    border-radius: 12px;
+    margin: 16px 0;
+    width: 400px;
+    height: 140px;
+}
+
+.login-form2{
+    width: 240px;
+    height: 220px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-30%, 100%);
+}
+
+.login-form2 button {
+    border-radius: 12px;
+    background-color: rgb(22, 45, 58);
+    color: white;
+    margin: 15px 0;
+    position: absolute;
+    /*绝对定位，能够进行覆盖*/
+    left: 50px;
+    top: -80%;
+    width: 300px;
+    height: 40px;
+    font-size: medium;
+}
+
+
+.background_1{
+    background-image: url(./学生小图.png);
+    background-size: cover;
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    top: 300px;
+    right: 150px;
+}
+
+.ball1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 90%;
+    background: rgba(36, 190, 248, 0.75);
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    transform: translate(-100%, 10%);
+}
+
+.ball2 {
+    width: 600px;
+    height: 600px;
+    border-radius: 90%;
+    background: rgba(233, 112, 25, 0.732);
+    position: absolute;
+    right: 10x;
+    top: 300px;
+    transform: translate(200%, 50%);
+}
